@@ -1,0 +1,29 @@
+\                                                                               
+\fixlen = T
+\RowsRetrieved =                 3
+\ORIGIN  = 'IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\DATETIME= '2016-04-22 03:46:22'
+\DataTag = 'ADS/IRSA.Gator#2016/0422/034622_27029'
+\DATABASE= 'WISE All-Sky Single Exposure (L1b) Source Table (allsky_4band_p1bs_psd)'
+\EQUINOX = 'J2000'
+\NOTE    = 'Column names with suffix _u are from the moving object seed list file .'
+\NOTE    = 'Column cntr_u is a sequential counter added to ID each row in the moving object seed list .'
+\NOTE    = 'dist_x is the distance in arcsec between each moving object source and its potential match in the WISE All-Sky Single Exposure (L1b) Source Table.'
+\NOTE    = 'pang_x is position angle, measured eastward from north, between the moving object and potential match in the WISE All-Sky Single Exposure (L1b) Source Table. 
+\NOTE    = 'Output rows are ordered by increasing cntr_u, and for each cntr_u by increasing dist_x.'
+\StatusFile = '/workspace/TMP_dtDDuq_27029/Gator/irsa/27029/log.27029.html'
+\SQL     = 'WHERE  A.cntr_u = X.cntr1_x and B.cntr=X.cntr2_x and A.scan_id_u=B.scan_id and A.frame_num_u=B.frame_num '
+\SQL     = 'SELECT (38 column names follow in next row.)'
+\ 
+\ clon 
+\ ___ Right ascention in Sexagesimal format.
+\ clat 
+\ ___ Declination in Sexagesimal format.
+\ 
+|               cntr_u|       dist_x|       pang_x|             ra_u|            dec_u|          ra|        dec|          clon|          clat|    sigra|   sigdec| sigradec| w1mpro| w1sigmpro|   w1snr|          w1rchi2| w2mpro| w2sigmpro|   w2snr|          w2rchi2| w3mpro| w3sigmpro|   w3snr|          w3rchi2| w4mpro| w4sigmpro|   w4snr|          w4rchi2|          nb|          na| w1sat| w2sat| w3sat| w4sat| cc_flags| ph_qual|     sso_flg|          mjd|   tmass_key| j_m_2mass| j_msig_2mass| h_m_2mass| h_msig_2mass| k_m_2mass| k_msig_2mass|
+|                 long|       double|       double|           double|           double|      double|     double|          char|          char|   double|   double|   double| double|    double|  double|           double| double|    double|  double|           double| double|    double|  double|           double| double|    double|  double|           double|         int|         int|double|double|double|double|     char|    char|         int|       double|         int|    double|       double|    double|       double|    double|       double|
+|                     |       arcsec|          deg|                 |                 |            |           |              |              |         |         |         |       |          |        |                 |       |          |        |                 |       |          |        |                 |       |          |        |                 |            |            |      |      |      |      |         |        |            |             |            |          |             |          |             |          |             |
+|                 null|         null|         null|             null|             null|        null|       null|          null|          null|     null|     null|     null|   null|      null|    null|             null|   null|      null|    null|             null|   null|      null|    null|             null|   null|      null|    null|             null|        null|        null|  null|  null|  null|  null|     null|    null|        null|         null|        null|      null|         null|      null|         null|      null|         null|
+                     1      0.137175    -36.576619         10.895235         33.084396   10.8952079  33.0844266   00h43m34.85s   33d05m03.94s    0.0711    0.0776   -0.0309  15.494      0.157      6.9       0.562300026  13.425      0.091     11.9        0.52759999   5.614      0.012     90.0        2.31699991   2.936      0.028     38.5       0.273000002            1            0  0.000  0.000  0.000  0.000      0000     BAAA            1  55207.294514         null       null          null       null          null       null          null 
+                     2      0.180639    -21.142360         10.908188         33.082188   10.9081664  33.0822348   00h43m37.96s   33d04m56.05s    0.0774    0.0747    0.0141  15.776      0.172      6.3             1.676  13.586      0.096     11.3       0.858299971   5.585      0.015     74.3        3.17700005   2.939      0.020     53.0             1.255            1            0  0.000  0.000  0.000  0.000      0000     BAAA            1  55207.360603         null       null          null       null          null       null          null 
+                     3      0.106235   -127.342615         10.908215         33.082173   10.9081870  33.0821551   00h43m37.96s   33d04m55.76s    0.0720    0.0684   -0.0188  15.823      0.207      5.3             1.301  13.287      0.082     13.2        1.68900001   5.578      0.012     90.6        3.87800002   2.981      0.024     45.4        2.00099993            1            0  0.000  0.000  0.000  0.000      0000     BAAA            1  55207.360730         null       null          null       null          null       null          null 
